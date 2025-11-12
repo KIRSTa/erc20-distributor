@@ -1,6 +1,6 @@
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/erc20-distributor?style=social)](https://github.com/yourusername/erc20-distributor/stargazers)
-[![License](https://img.shields.io/github/license/yourusername/erc20-distributor)](LICENSE)
-[![Remix](https://img.shields.io/badge/Remix-deploy-blue)](https://remix.ethereum.org/#url=https://github.com/yourusername/erc20-distributor/blob/main/contracts/DistributorPro.sol)
+[![GitHub stars](https://img.shields.io/github/stars/KIRSTa/erc20-distributor?style=social)](https://github.com/KIRSTa/erc20-distributor/stargazers)
+[![License](https://img.shields.io/github/license/KIRSTa/erc20-distributor)](LICENSE)
+[![Remix](https://img.shields.io/badge/Remix-deploy-blue)](https://remix.ethereum.org/#url=https://github.com/KIRSTa/erc20-distributor/blob/main/contracts/DistributorPro.sol)
 [![Base](https://img.shields.io/badge/Base-ready-0099ff)](https://basescan.org)
 # ERC-20 Distributor (Base, Ethereum, Polygon, Arbitrum)
 
