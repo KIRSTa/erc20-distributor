@@ -1,27 +1,31 @@
-[![GitHub stars](https://img.shields.io/github/stars/KIRSTa/erc20-distributor?style=social)](https://github.com/KIRSTa/erc20-distributor/stargazers)
-[![License](https://img.shields.io/github/license/KIRSTa/erc20-distributor)](LICENSE)
-[![Remix](https://img.shields.io/badge/Remix-deploy-blue)](https://remix.ethereum.org/#url=https://github.com/KIRSTa/erc20-distributor/blob/main/contracts/DistributorPro.sol)
-[![Base](https://img.shields.io/badge/Base-ready-0099ff)](https://basescan.org)
-# ERC-20 Distributor (Base, Ethereum, Polygon, Arbitrum)
+# ERC-20 Distributor Pro — зарабатывай 0.5% с каждого airdrop
 
-**One transaction → 200 recipients**  
-Universal airdrop contract for **any ERC-20 token** (USDC, USDT, DAI, etc.)
+**Уже заработал 0.00002 ETH за 2 минуты работы на Base!**
 
-Deployed & tested on **Base Mainnet**:  
-`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` (USDC)
+**Доказательство:**  
+[Транзакция вывода комиссии](https://basescan.org/tx/0xaebc11dd6526080e4268229e4cc027ce21d65a8b6a6adc84d3ce13648926f2a3)
 
-## Features
-- Send to **200 addresses** in one transaction
-- Works with **any ERC-20** (6 or 18 decimals)
-- Safe low-level `transfer` with revert on failure
-- Only owner can distribute
-- Gas-optimized (~45k gas per 100 recipients)
+## Особенности
+- Раздача до **200 адресов** за одну транзакцию
+- Комиссия **0.5%** (настраивается до 5%)
+- Комиссия платится в **ETH** → вывод одной кнопкой `claimFees()`
+- Работает с **любым ERC-20** (USDC, USDT, DAI и т.д.)
 
-## Quick Start (Remix)
+## Деплой на Base
+0x49f57c1e289c96b72d4cb22a30af7ba0878362d
 
-1. Open: https://remix.ethereum.org
-2. Copy `contracts/1234.sol`
-3. Compile → Deploy
-4. Approve token spending:
-   ```solidity
-   approve(0xYourDistributorAddress, 100000000)
+
+## Быстрый старт (Remix)
+1. Открой [Remix](https://remix.ethereum.org)
+2. Вставь код из `contracts/DistributorPro.sol`
+3. Деплой с параметром `50` (0.5%)
+4. Сделай `approve` токена
+5. Вызови `send` с **VALUE 0.001 ETH**
+
+## Заработок
+- Раздаёшь 1000 USDC → платишь ~0.00015 ETH комиссии
+- Все комиссии копятся → выводишь одной кнопкой
+
+**Автор:** [@KIRSTa](https://github.com/KIRSTa) — прошёл 20 ошибок Remix'а и победил
+
+**License:** MIT © 2025
